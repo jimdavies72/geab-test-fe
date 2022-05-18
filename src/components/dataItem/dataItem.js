@@ -1,9 +1,12 @@
 import "./dataItem.css";
 
-export const DataItem = () => {
+export const DataItem = ({ product }) => {
   return (
     <>
-      <span>Data Item</span>
+      <span>
+        <p>{product.name}</p>
+        <p>{product.price.value}</p>
+      </span>
     </>
   );
 };
