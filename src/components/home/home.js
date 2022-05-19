@@ -4,11 +4,10 @@ import { DataList } from "../dataList/dataList";
 
 export const Home = () => {
   return (
-    <>
-      <span>Home Page</span>
+    <div className="home-container">
       <div>
         <DataList />
       </div>
-    </>
+    </div>
   );
 };
