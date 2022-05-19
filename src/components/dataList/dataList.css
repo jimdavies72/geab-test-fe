@@ -37,3 +37,7 @@ button {
   margin: 2px;
   border-radius: 3px;
 }
+
+li {
+  list-style-type: none;
+}
