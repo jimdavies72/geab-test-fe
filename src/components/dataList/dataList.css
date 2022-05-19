@@ -1,0 +1,43 @@
+.list-container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  margin: 12px 10px;
+  padding: 2px;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  flex: 1;
+  padding: 0 10px;
+  margin-right: 20px;
+}
+
+.price-group {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 3px;
+}
+
+.price-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+button {
+  padding: 2px 4px;
+  margin: 2px;
+  border-radius: 3px;
+}
+
+li {
+  list-style-type: none;
+}
