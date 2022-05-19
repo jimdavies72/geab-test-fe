@@ -5,10 +5,7 @@ export const DataItem = ({ product }) => {
     <div className="item-container">
       <p>{product.id}</p>
       <p>{product.name}</p>
-      <div id="price">
-        <p>{product.price.value}</p>
-        <p>{product.price.currency}</p>
-      </div>
+      <p id="price">{`${product.price.value} ${product.price.currency}`}</p>
       <p>{product.type}</p>
       <p>{product.department}</p>
       <p>{product.weight}</p>
