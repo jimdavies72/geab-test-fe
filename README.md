@@ -6,13 +6,10 @@
 ### Description
 This repo represents the front-end code that formed part of the Green Energy Advice Bureau interview technical challenge. The back end can be found in the repo: [geab-test-be](https://github.com/jimdavies72/geab-test-be)
 
-View the end product here: [GEAB Technical Test](https://)
+View the end product here: [GEAB Technical Test](https://geab-devtest.netlify.app/)
 
-### Topics Covered:
+### Tech Stack (Front End only):
 
-- Prismic CMS and Slice Machine
-- Next.JS
-  - TypeScript
-  - Tailwind CSS
-- GSAP Animations
-- Deployment to Vercel
+- React.JS web library
+- Netlify Hosting
+
